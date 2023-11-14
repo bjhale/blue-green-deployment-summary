@@ -1,0 +1,12 @@
+name: 'Blue Green Summary Action'
+description: 'Prints summary'
+inputs:
+  url:
+    description: 'Url of environment'
+    required: true
+  env:
+    description: 'Name of environment'
+    required: true
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
